@@ -8,7 +8,7 @@ log = logging.getLogger(__name__)
 
 class Rtorrent:
     def __init__(self, url):
-        self.url = "%s/RPC2" % url
+        self.url = url
         self.xmlrpc = ServerProxy(self.url)
 
     def get_torrents(self):
