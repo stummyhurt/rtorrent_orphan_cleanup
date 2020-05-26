@@ -115,7 +115,7 @@
 ```json
 "rutorrent": {
   "download_folder": "/mnt/local/downloads/torrents/rutorrent/completed",
-  "url": "https://user:pass@rutorrent.domain.com",
+  "url": "https://user:pass@rutorrent.domain.com/rutorrent/plugins/httprpc/action.php",
   "path_mappings": {
     "/mnt/local/downloads/torrents/": [
       "/downloads/torrents/"
@@ -130,7 +130,7 @@
 
 `url` - Your ruTorrent URL.
 
-  - This can be in the form of `https://user:pass@ipaddress`
+  - This can be in the form of `https://user:pass@ipaddress/path/to/rpc`
 
 
 ### path mappings
