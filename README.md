@@ -68,7 +68,7 @@
   },
   "rutorrent": {
     "download_folder": "/mnt/local/downloads/torrents/rutorrent/completed",
-    "url": "https://user:pass@rutorrent.domain.com",
+    "url": "https://user:pass@rutorrent.domain.com/rutorrent/plugins/httprpc/action.php",
     "path_mappings": {
       "/mnt/local/downloads/torrents/": [
         "/downloads/torrents/"
